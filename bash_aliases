@@ -11,7 +11,9 @@ alias gcv='git commit --no-verify'
 alias gk='git checkout'
 alias gkb='git checkout -b'
 alias gkm='git checkout master'
-alias gkd='git checkout develop'
+alias gkde='git checkout dev'
+alias gkdd='git checkout develop'
+alias gkd='git checkout development'
 alias gks='git checkout staging'
 alias gd='git diff --color-words'
 alias gf='git fetch'
@@ -39,7 +41,7 @@ alias ci='composer install'
 alias cu='composer update'
 
 # ls
-alias l='ls -la'
+alias l='ls -lah'
 
 # symfony
 alias sf='php app/console'
